@@ -16,5 +16,6 @@ public class Main {
         studentGPA = newGPA.nextDouble();
         System.out.println(studentFirstName + " " +
                 studentLastName + " now has a GPA of " + studentGPA);
+        newGPA.close();
     }
 }
