@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Main {
@@ -21,7 +23,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // Retrieve the user's input
         String input = scanner.next();
-
+        
         if(correctAnswer.equals(input.toLowerCase())) {
             System.out.println("Congrats! That's the correct answer");
         } else {
