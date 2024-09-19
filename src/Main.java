@@ -10,7 +10,7 @@ public class Main {
         String choiceTwo = "jupiter";
         String choiceThree = "saturn";
 
-        String correctAnswer = choiceThree;
+        String correctAnswer = choiceTwo;
 
         // Write a print statement asking the question
         System.out.println(question);
